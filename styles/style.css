@@ -1,0 +1,121 @@
+.svgs{
+  display: none;
+}
+
+.wrapper {
+  font: normal normal 20px 'Roboto', sans-serif;
+  color: #fff;
+  width: 1900px;
+  margin: 0 auto;
+}
+.btn {
+  color: #fff;
+  font-weight: 500;
+  line-height: 23px;
+  padding: 12px 28px;
+  border: 2px solid #00A674;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background: none;
+}
+
+.wrapper-head {
+  position: relative;
+  padding: 0 350px;
+  background-image: url(../assests/images/backgr_1.png);
+  padding-bottom: 298px;
+  margin-bottom: 100px;
+}
+
+/*HEADER*/
+.header {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+.logo {
+  display: flex;
+  align-items: flex-end;
+}
+.logo__img {
+  width: 70px;
+  height: 67px;
+  margin-right: 17px;
+}
+.logo__text {
+  font-size: 30px;
+  line-height: 35px;
+}
+.sign__btn {
+  margin-right: 30px;
+  background-color: #00A674;
+}
+.arrow-svg {
+  margin-left: 8px;
+}
+
+
+/*HEAD BLOCK*/
+.head-imgs__img {
+  position: absolute;
+  right: 0;
+  bottom: -61px;
+}
+.head-text__heading {
+  width: 821px;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 68px;
+  margin-bottom: 60px;
+}
+.head-text__paragraph{
+  font-size: 36px;
+  line-height: 42px;
+  color: #D3E5FF;
+  margin-bottom: 30px ;
+}
+.support-btn {
+  margin-right: 30px;
+}
+.email-svg,
+.phone-svg {
+  margin-right: 3px;
+}
+
+/*ADVANTAGES*/
+.advantages{
+  margin: 0 350px 100px;
+}
+.advantages__heading{
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+
+  text-align: center;
+
+  color: #002476;
+
+  margin-bottom: 60px;
+}
+.advantages-list {
+  display: flex;
+  justify-content: center;
+}
+.advantages-list__elem {
+  width: 175px;
+  text-align: center;
+  margin-right: 30px;
+}
+.advantages-list__elem:last-child {
+  margin: 0;
+}
+.advantages-list__icons {
+  margin-bottom: 30px;
+}
+.advantages__paragraph {
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #000C26;
+}
