@@ -81,10 +81,11 @@
 }
 
 /*BANNER BLOCK*/
-.banner__img {
+.banner__img{
   position: absolute;
+  content: url(../assests/images/backgr_devices.png);
+  width: 823px;
   right: 0;
-  bottom: -58px;
 }
 .banner-text__heading {
   white-space: pre-line;
