@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link 
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet">
+  <title>Ласточка</title>
+</head>
+<body>
+  <div class="svg">
+    <svg id="logo" viewBox="0 0 72 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M7 38.2132C30.0298 47.7919 59.2247 18.4272 70.9434 2.54752C71.9624 8.49179 70.8924 22.1636 58.4604 29.2967C60.6683 29.042 64.8293 30.4177 63.8103 37.9584C61.9421 36.5148 56.7281 34.239 50.8178 36.6846C43.4299 39.7417 31.7501 49.5001 7 38.2132Z" fill="white"/>
+      <path d="M30.6922 33.6276C15.2031 28.3287 13.5387 9.00133 14.6426 0C23.2024 12.2282 37.2309 22.0787 43.1751 25.4755L30.6922 33.6276Z" fill="white"/>
+      <path d="M64 57.3256V47V57C64 58.6569 62.6569 60 61 60H4C2.34315 60 1 58.6569 1 57V35C1 33.3431 2.34315 32 4 32H20.8145" stroke="white" stroke-width="1.5" stroke-linecap="round"/>    
+    </svg>
+  </div>
+  <div class="container">
+    <div class="wrapper-head">
+      <header class="header">
+        <div class="logo">
+          <svg class="logo__img ">
+            <use xlink:href="#logo"></use>
+          </svg>
+          <h1 class="logo__text">
+            Ласточка
+          </h1>
+          <a class="logo-link" href="./index.html"></a>
+        </div>
+        <div>
+          <button class="authorization btn">
+              Вход / Регистрация
+          </button>
+          <button class="choose-language btn">
+              RU
+          </button>
+        </div>
+      </header> 
+      <section class="banner">
+        <img class="banner__img" src="./assests/images/backgr_devices.png" alt="devices's photos">
+        <div class="banner-text">
+          <h4 class="banner-text__heading heading">
+              Удобство и безопасность -
+              все этов новой платежной
+              системе от компании “Ласточка”
+          </h4>
+          <p class="banner-text__paragraph">
+              Мы с радостью ответим на все ваши вопросы:
+          </p>
+          <div class="support">
+            <a class="support__email btn" href="mailto:support@site.eu">
+              support@site.eu
+            </a>
+            <a class="support__phone btn" href="tel:+79560000000">
+              +7 956 000 00 00
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="advantages">
+      <h4 class="heading">
+          Преимущества платежной системы «Ласточка»
+      </h4>
+      <ul class="advantages-list">
+        <li class="advantages-list__elem">
+          <img class="advantages-list__elem-icons" src="./assests/icons/safe-icon.svg" alt="safe">
+          <p class="advantages-list__elem-paragraph">
+              Безопасность на уровне банка
+          </p>
+        </li>
+        <li class="advantages-list__elem">
+          <img class="advantages-list__elem-icons" src="./assests/icons/comfortable-icon.svg" alt="compfortable image">
+          <p class="advantages-list__elem-paragraph">
+              Удобный веб-кабинет и мобильное приложение
+          </p>
+        </li>
+        <li class="advantages-list__elem">
+          <img class="advantages-list__elem-icons" src="./assests/icons/staticss-icon.svg" alt="statistic image">
+          <p class="advantages-list__elem-paragraph">
+            Подробная статистика по операциям
+          </p>
+        </li>
+        <li class="advantages-list__elem">
+          <img class="advantages-list__elem-icons" src="./assests/icons/acco-icon.svg" alt="dollar rate image">
+          <p class="advantages-list__elem-paragraph">
+              Счета в рублях, евро, долларах, криптовалютах
+          </p>
+        </li>
+        <li class="advantages-list__elem">
+          <img class="advantages-list__elem-icons" src="./assests/icons/support-icon.svg" alt="online support image">
+          <p class="advantages-list__elem-paragraph">
+            Онлайн поддержка 24/7
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="try">
+        <h4 class="try-heading heading">
+              Попробуйте прямо сейчас!
+        </h4>
+        <form class="try-form">
+          <input class="try-form__input" placeholder="Имя" type="text" minlength=4 maxlength=20 required>
+          <input class="try-form__input"  placeholder="Фамилия" type="text" minlength=4 maxlength=25 required>
+          <input class="try-form__input"  placeholder="Телефон" type="tel" 
+                  pattern="+375-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                  title="Format is +375-**-111-11-11" required>
+          <input class="try-form__input"  placeholder="Электронная почта"  type="email" required>
+          <input class="try-form__input try-form__input-submit btn"  value="Зарегистрироваться" type="submit">
+        </form>
+    </section>
+    <section class="description">
+      <h4 class="heading">
+          Попробуйте нашу новую платежную систему «Ласточка» и убедитесь 
+          в ее безопасности и удобстве
+      </h4>
+      <div class="discription-text">
+        <p class="discription-text__paragraph">
+            <strong>Платежная система</strong> - это простой способ перевода
+            денег в виртуальном пространстве частным лицам или онлайн-магазинам. 
+        </p>
+        <p class="discription-text__paragraph">
+            Наша система предлагает не только удобство взаимодействия с 
+            интерфейсом, но и высокие стандартные безопасности. 
+        </p>
+        <p class="discription-text__paragraph">
+            Доверяя нам, вы точно можете быть уверены в том, что вы проводите
+            денежные операции в интернете ничем не рискуя.
+        </p>
+      </div>
+      <div class="description-images">
+        <div class="description-images__img-people description-images__img" ></div>
+        <div class="description-images__img-check description-images__img"></div>
+        <div class="description-images__img-ellipse-little description-images__img"></div>
+        <div class="description-images__img-ellipse-big description-images__img"></div>
+        <div class="description-images__img-rectangle description-images__img"></div>
+        <div class="description-images__img-figure description-images__img"></div>
+      </div>
+    </section>
+    <section class="rewards">
+      <h4 class="heading">
+          Награды компании
+      </h4>
+      <ul class="rewards-list">
+        <li class="rewards-list__card">
+          <img class="rewards-list__card-img" src="./assests/icons/star.svg" alt="reward's image">
+          <h6 class="rewards-list__card-number">Награда 1</h6>
+          <p class="rewards-list__card-text">
+              За существенный вклад в развитие отрасти - 2018
+              по версии IBM
+          </p>
+        </li>
+        <li class="rewards-list__card">
+          <img class="rewards-list__card-img" src="./assests/icons/star.svg" alt="reward's image">
+          <h6 class="rewards-list__card-number">Награда 2</h6>
+          <p class="rewards-list__card-text">
+              За существенный вклад в развитие отрасти - 2018
+              по версии IBM
+          </p>
+        </li>
+        <li class="rewards-list__card">
+          <img class="rewards-list__card-img" src="./assests/icons/star.svg" alt="reward's image">
+          <h6 class="rewards-list__card-number">Награда 3</h6>
+          <p class="rewards-list__card-text">
+              За существенный вклад в развитие отрасти - 2018
+              по версии IBM
+          </p>
+        </li>
+        <li class="rewards-list__card">
+          <img class="rewards-list__card-img" src="./assests/icons/star.svg" alt="reward's image">
+          <h6 class="rewards-list__card-number">Награда 4</h6>
+          <p class="rewards-list__card-text">
+              За существенный вклад в развитие отрасти - 2018
+              по версии IBM
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="choice">
+      <h4 class="choice__heading heading">Сделай правильный выбор</h4>
+      <button class="choice__btn btn">Зарегистрироваться</button>
+      <p class="choice__paragraph">
+          Возникли вопросы? 
+          <a class="choice__paragraph-link" href="mailto:support@site.eu">
+              Напишите нам
+          </a>
+      </p>
+    </section>
+    <footer class="footer-wrapper">
+      <div class="footer">
+        <div class="logo">
+          <svg class="footer-logo__img ">
+            <use xlink:href="#logo"></use>
+          </svg>
+          <h2 class="footer-logo__text">Ласточка</h2>
+          <a class="logo-link" href="./index.html"></a>
+        </div>
+        <div class="footer-nav">
+          <div class="service-support">
+            <h6 class="footer__heading">
+                СЕРВИС И ПОДДЕРЖКА
+            </h6>
+            <ul class="footer-nav__list">
+              <li class="footer-nav__list-elem">
+                <a class="support__phone" href="tel:+79560000000">
+                  +7 956 000 00 00
+                </a>
+              </li>
+              <li class="footer-nav__list-elem">
+                <a class="support__email" href="mailto:support@site.eu">
+                  support@site.eu
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="products">
+            <h6 class="footer__heading">
+                ПРОДУКТЫ И УСЛУГИ
+            </h6>
+            <ul class="footer-nav__list">
+              <li class="footer-nav__list-elem">
+                  <a class="footer-list__link" href="#">Ссылка 1</a>
+              </li>
+              <li class="footer-nav__list-elem">
+                <a class="footer-list__link" href="#">Ссылка 2</a>
+              </li>
+              <li class="footer-nav__list-elem">
+                <a class="footer-list__link" href="#">Ссылка 3</a>
+              </li>
+            </ul>
+          </div>
+          <div class="social">
+            <h6 class="footer__heading">
+                СОЦ.СЕТИ
+            </h6>
+            <ul class="footer-nav__list">
+              <li class="footer-nav__list-elem">
+                  <a class="footer-list__link" href="">Ссылка 1</a>
+              </li>
+              <li class="footer-nav__list-elem">
+                <a class="footer-list__link" href="">Ссылка 2</a>
+              </li>
+              <li class="footer-nav__list-elem">
+                <a class="footer-list__link" href="">Ссылка 3</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="go-up"  >
+
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
