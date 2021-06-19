@@ -264,6 +264,7 @@
 }
 .rewards-list {
   display: flex;
+  justify-content: center;
 }
 .rewards-list__card {
   width: 275px;
@@ -366,7 +367,7 @@
 }
 .footer-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .service-support,
 .products,
