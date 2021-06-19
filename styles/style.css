@@ -184,8 +184,7 @@
   font-size: 22px;
   line-height: 26px;
 }
-.try-form__input::-webkit-input-placeholder,
-.try-form__input-submit::-webkit-input-placeholder {
+.try-form__input::-webkit-input-placeholder {
   color: #fff;
   font-size: 22px;
   line-height: 26px;

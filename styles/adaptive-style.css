@@ -229,6 +229,152 @@
   }
 }
 
-@media screen and (max-width: 1199) and (min-width: 992){
-  
+@media screen and (max-width: 1199px) and (min-width: 992px){
+  .container {
+    font-size: 17px;
+    width: 992px;
+  }
+  .btn {
+    line-height: 13px;
+    padding: 9px 15px;
+  }
+  .heading {
+    font-size: 37px;
+    line-height: 44px;
+    margin-bottom: 25px;
+  }
+  .wrapper-head {
+    padding: 0 100px 117px;
+    background-size: contain;
+    margin-bottom: 35px;
+  }
+  .header {
+    align-items: flex-end;
+    margin-bottom: 0;
+  }
+  .logo__img {
+    width: 55px;
+    height: 52px;
+    margin-right: 5px;
+  }
+  .logo__text {
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .banner-text__paragraph {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .banner__img {
+    display: none;
+  }
+  .support__email, .support__phone {
+    font-size: 15px;
+  }
+
+  .advantages {
+    margin: 0 100px 70px;
+  }
+  .advantages-list__elem {
+    width: 130px;
+    margin-right: 20px;
+  }
+  .advantages-list__elem-icons {
+    margin-bottom: 20px;
+    height: 70px;
+  }
+  .advantages-list__elem-paragraph {
+    font-size: 17px;
+    line-height: 24px;
+    padding: 0 8px;
+  }
+
+  .try {
+    background-size: contain;
+    padding: 25px 95px 10px;
+    margin: 0 5px 60px;
+  }
+  .try-form__input {
+    margin-bottom: 22px;
+    width: 370px;
+    height: 35px;
+  }
+  .try-form__input-submit {
+    height: 40px;
+  }
+  .try-form__input::-webkit-input-placeholder {
+    font-size: 17px;
+  }
+
+  .description {
+    margin: 0 100px 10px;
+    padding-bottom: 130px;
+    line-height: 24px;
+  }
+  .description-images__img-people {
+    opacity: .65;
+  }
+
+  .rewards {
+    margin: 0 100px 60px;
+  }
+  .rewards-list__card {
+    width: 179px;
+    padding: 20px 10px;
+    margin-right: 15px; 
+    box-shadow: 2px 5px 0px #002476;
+  }
+  .rewards-list__card-img {
+    margin-bottom: 15px;
+    width: 80px;
+  }
+  .rewards-list__card-number {
+    margin-bottom: 15px;
+  }
+  .rewards-list__card-text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .choice {
+    margin: 0 200px 91px;
+  }
+
+  .footer {
+    margin: 0 100px;
+    padding: 40px 0;
+  }
+  .footer-logo__img {
+    width: 37px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  .footer-logo__text {
+    line-height: 14px;
+    font-size: 18px;
+  }
+  .service-support, .products {
+    margin-right: 15px;
+  }
+  .service-support, .products, .social {
+    width: 190px;
+    margin-top: 20px;
+  }
+  .footer__heading {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+  .footer-nav__list-elem {
+    margin-bottom: 7px;
+  }
+  .footer-nav__list-elem, .footer-list__link {
+      line-height: 20px;
+      font-size: 17px;
+  }
+
+  .go-up {
+    right: 107px;
+    top: 113px;
+    padding: 14px 15.5px;
+  }
 }
