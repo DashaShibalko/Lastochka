@@ -105,6 +105,7 @@
 }
 .support .support__email::before {
   content: url(../assests/icons/email.svg);
+  width: 2px;
   margin-right: 3px;
   position: relative;
   top: 3px;
