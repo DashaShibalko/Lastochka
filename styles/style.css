@@ -238,15 +238,15 @@
 }
 .description-images__img-ellipse-big {
   background-image: url(../assests/icons/Ellipse.svg);
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   bottom: 400px;
   left: -176px;
 }
 .description-images__img-rectangle {
   background-image: url(../assests/icons/Rectangle.svg);
-  width: 13.07px;
-  height: 13.07px;
+  width: 20.07px;
+  height: 18.07px;
   bottom: 222px;
   left: 58px;
 }
