@@ -1,6 +1,6 @@
 @media screen and (max-width: 1899px) and (min-width:1400px){
   .container {
-    width: 1400px;
+    width: calc(1400px - (100vw - 100%));
   }
   .wrapper-head{
     padding: 0 250px 315px;
@@ -8,8 +8,7 @@
   .banner__img {
     position: absolute;
     content: url(../assests/images/backgr_devices.png);
-    width: 630px;
-    right: -44px;
+    width: 570px;
     top: 241px;
   }
   .banner-text__paragraph {
@@ -49,6 +48,11 @@
   .description {
     margin: 0 250px 50px;
     padding-bottom: 150px;
+  }
+  .description-images__img-people {
+    width: 388px;
+    height: 220px;
+    opacity: 0.5;
   }
   .rewards {
     margin: 0 250px 105px;
@@ -91,7 +95,7 @@
 
 @media screen and (max-width: 1399px) and (min-width:1200px){
   .container {
-    width: 1200px;
+    width: calc(1200px - (100vw - 100%));
   }
   .btn {
     line-height: 16px;
@@ -127,9 +131,8 @@
     margin-bottom: 24px;
   }
   .banner__img {
-    width: 591px;
-    right: -59px;
-    top: 64px;
+    width: 502px;
+    top: 130px;
   }
   .advantages {
     margin: 0 200px 70px;
@@ -152,6 +155,7 @@
     background-size: contain;
     padding: 30px 190px 10px;
     margin: 0 10px 70px;
+    box-shadow: 8px 8px 0 0 #75bafe;
   }
   .try-form__input {
     padding: 20px 25px;
@@ -166,7 +170,7 @@
     line-height: 24px;
   }
   .description-images__img-people {
-    opacity: .85;
+    display: none;
   }
 
   .rewards {
@@ -234,7 +238,7 @@
 @media screen and (max-width: 1199px) and (min-width: 992px){
   .container {
     font-size: 17px;
-    width: 992px;
+    width: calc(992px - (100vw - 100%));
   }
   .btn {
     line-height: 13px;
@@ -268,9 +272,7 @@
     margin-bottom: 20px;
   }
   .banner__img {
-    width: 450px;
-    right: -25px;
-    top: 75px;
+    display: none;
   }
   .support__email, .support__phone {
     font-size: 15px;
@@ -297,6 +299,7 @@
     background-size: contain;
     padding: 25px 95px 10px;
     margin: 0 5px 60px;
+    box-shadow: 6px 6px 0 0 #75bafe;
   }
   .try-form__input {
     margin-bottom: 22px;
@@ -316,8 +319,20 @@
     line-height: 24px;
   }
   .description-images__img-people {
-    opacity: .65;
+    display: none;
   }
+  .description-images__img-check {
+    left: -50px;
+  }
+  .description-images__img-ellipse-little {
+    left: 21px;
+    bottom: 276px;
+  }
+  .description-images__img-ellipse-big {
+    bottom: 121px;
+    left: -25px;
+  }
+
 
   .rewards {
     margin: 0 100px 60px;
@@ -386,7 +401,7 @@
 @media screen and (max-width: 991px) and (min-width: 768px){
   .container {
     font-size: 15px;
-    width: 768px;
+    width: calc(768px - (100vw - 100%));
   }
   .btn {
     line-height: 14px;
@@ -431,9 +446,7 @@
     line-height: 20px;
   }
   .banner__img {
-    width: 416px;
-    right: -17px;
-    bottom: 0;
+    display: none;
   }
   .support__email {
     margin-right: 15px;
@@ -592,7 +605,7 @@
 @media screen and (max-width: 767px) and (min-width: 576px){
   .container {
     font-size: 12px;
-    width: 576px;
+    width: calc(576px - (100vw - 100%));
   }
   .btn {
     line-height: 13px;
@@ -637,9 +650,7 @@
     line-height: 20px;
   }
   .banner__img {
-    width: 230px;
-    right: 0;
-    bottom: -9px;
+    display: none;
   }
   .support__email, .support__phone {
     font-size: 13px;
@@ -666,6 +677,7 @@
     background-size: contain;
     padding: 5px 40px 13px;
     margin: 0 2px 30px;
+    box-shadow: 5px 5px 0 0 #75bafe;
   }
   .try-form__input {
     margin-bottom: 8px;
@@ -779,6 +791,9 @@
     line-height: 17px;
     font-size: 12px;
   }
+  .footer-wrapper::before {
+    width: 95%;
+  }
 
   .go-up {
     width: 40px;
@@ -797,21 +812,21 @@
     content: "";
   }
   .container {
-    font-size: 8px;
-    width: 320px;
+    font-size: 10px;
+    width: calc(320px - (100vw - 100%));
   }
   .btn {
     line-height: 10px;
-    padding: 2px 6px;
+    padding: 4px 8px;
     border: 1px solid #00a674;
   }
   .heading {
-    font-size: 11px;
+    font-size: 15px;
     line-height: 14px;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
   }
   .wrapper-head {
-    padding: 7px 20px 33px;
+    padding: 0px 20px 33px;
     background-size: contain;
     margin-bottom: 10px;
   }
@@ -821,13 +836,13 @@
     margin-bottom: 0;
   }
   .logo__img {
-    width: 23px;
-    height: 18px;
+    width: 30px;
+    height: 26px;
     margin-right: 1px;
   }
   .logo__text {
-    font-size: 9px;
-    line-height: 10px;
+    font-size: 11px;
+    line-height: 11px;
   }
   .authorization {
     margin-right: 8px;
@@ -838,9 +853,14 @@
     bottom: 0px;
   } 
 
-
+  .banner {
+    text-align: center  ;
+  }
+  .banner-text__heading {
+    text-align: center;
+  }
   .banner-text__paragraph {
-    font-size: 8px;
+    font-size: 10px;
     margin-bottom: 10px;
     line-height: 8px;
   }
@@ -857,16 +877,19 @@
   .advantages {
     margin: 0 20px 20px;
   }
+  .advantages-list {
+    flex-wrap: wrap;
+  }
   .advantages-list__elem {
-    width: 52px;
+    width: 115px;
     margin-right: 5px;
   }
   .advantages-list__elem-icons {
     margin-bottom: 4px;
-    height: 30px;
+    height: 40px;
   }
   .advantages-list__elem-paragraph {
-    font-size: 8px;
+    font-size: 10px;
     line-height: 10px;
     padding: 0 5px;
   }
@@ -875,11 +898,16 @@
     background-size: contain;
     padding: 5px 17px 0;
     margin: 0 1px 15px;
+    box-shadow: 2px 2px 0 0 #75bafe;
+    border-radius: 95px 0;  
+  }
+  .try-form {
+    justify-content: center;
   }
   .try-form__input {
     margin-bottom: 7px;
-    width: 139px;
-    height: 16px;
+    width: 167px;
+    height: 20px;
     padding: 0px 10px;
     border: 1px solid #00a674;
   }
@@ -920,7 +948,7 @@
     left: -12px;
   }
   .description-images__img-rectangle {
-    bottom: 51px;
+    display: none;
   }
   .description-images__img-figure {
     bottom: 49px;
@@ -930,23 +958,26 @@
   .rewards {
     margin: 0 20px 20px;
   }
+  .rewards-list {
+    flex-wrap: wrap;
+  }
   .rewards-list__card {
-    width: 67px;
-    padding: 12px 5px;
-    margin-right: 4px;
-    box-shadow: 1px 2px 0px #002476;
+    width: 84px;
+    padding: 17px 7px;
+    margin: 0 6px 10px 0;
+    box-shadow: 2px 3px 0px #002476;
   }
   .rewards-list__card-img {
     margin-bottom: 5px;
-    width: 30px;
+    width: 40px;
   }
   .rewards-list__card-number {
     margin-bottom: 3px;
-    font-size: 9px;
+    font-size: 10px;
     line-height: 10px;
   }
   .rewards-list__card-text {
-    font-size: 7px;
+    font-size: 9px;
     line-height: 10px;
   }
 

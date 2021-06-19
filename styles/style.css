@@ -5,7 +5,7 @@
 .container {
   font: normal normal 20px "Roboto", sans-serif;
   color: #fff;
-  width: 1900px;
+  width: calc(1900px - (100vw - 100%));
   margin: 0 auto;
 }
 .btn {
@@ -147,10 +147,11 @@
 
 /*TRY*/
 .try {
-  background-image: url("../assests/images/backgr-2.png");
-  background-repeat: no-repeat;
-  padding: 80px 310px 65px;
-  margin: 0 40px 100px;
+  background: linear-gradient(116.62deg, #002476 12.82%, #063D8D 32.98%, #05579C 59.1%, #00A6E6 99.97%);
+  box-shadow: 15px 15px 0 0 #75BAFE;
+  border-radius: 395px 0;
+  padding: 80px 310px 44px  ;
+  margin: 0 40px 116px;
 }
 
 .try-heading {
@@ -302,7 +303,7 @@
 
 /*CHOICE block*/
 .choice {
-  margin: 0 350px 121px;
+  margin: 0 350px 114px;
   text-align: center;
 }
 .choice__heading {
@@ -351,7 +352,7 @@
 }
 .footer {
   margin: 0 350px;
-  padding: 82px 0 31px;
+  padding: 82px 0 88px;
 
   display: flex;
   justify-content: space-between;
