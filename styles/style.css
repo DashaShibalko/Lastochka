@@ -81,10 +81,11 @@
 }
 
 /*BANNER BLOCK*/
-.banner__img {
+.banner__img{
   position: absolute;
+  content: url(../assests/images/backgr_devices.png);
+  width: 823px;
   right: 0;
-  bottom: -58px;
 }
 .banner-text__heading {
   white-space: pre-line;
@@ -104,6 +105,7 @@
 }
 .support .support__email::before {
   content: url(../assests/icons/email.svg);
+  width: 2px;
   margin-right: 3px;
   position: relative;
   top: 3px;
@@ -183,8 +185,7 @@
   font-size: 22px;
   line-height: 26px;
 }
-.try-form__input::-webkit-input-placeholder,
-.try-form__input-submit::-webkit-input-placeholder {
+.try-form__input::-webkit-input-placeholder {
   color: #fff;
   font-size: 22px;
   line-height: 26px;
@@ -237,15 +238,15 @@
 }
 .description-images__img-ellipse-big {
   background-image: url(../assests/icons/Ellipse.svg);
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   bottom: 400px;
   left: -176px;
 }
 .description-images__img-rectangle {
   background-image: url(../assests/icons/Rectangle.svg);
-  width: 13.07px;
-  height: 13.07px;
+  width: 20.07px;
+  height: 18.07px;
   bottom: 222px;
   left: 58px;
 }
@@ -263,6 +264,7 @@
 }
 .rewards-list {
   display: flex;
+  justify-content: center;
 }
 .rewards-list__card {
   width: 275px;
@@ -365,7 +367,7 @@
 }
 .footer-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .service-support,
 .products,
